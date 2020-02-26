@@ -4,10 +4,14 @@
 /**************************************************************************************************/
 /* Constructor */
 /**************************************************************************************************/
-Relay_Actuator::Relay_Actuator( i_Discrete_Output* an_discrete_pin )
+Relay_Actuator::Relay_Actuator( void )
+{
+
+}
+/**************************************************************************************************/
+void Relay_Actuator::Connect_Ports( i_Discrete_Output* an_discrete_pin )
 {
     this->Discrete_Pin = an_discrete_pin;
-    Relay_Actuation = Relay_Actuation_Class(this);
 }
 /**************************************************************************************************/
 
@@ -27,7 +31,7 @@ Relay_Actuator::Relay_Actuator( i_Discrete_Output* an_discrete_pin )
 /**************************************************************************************************/
 i_Relay_Actuation_Requests* Relay_Actuator::Get_Port__Relay_Actuation( void )
 {
-    return (i_Relay_Actuation_Requests*)&(this->Relay_Actuation);
+    return (i_Relay_Actuation_Requests*)(this);
 }
 /**************************************************************************************************/
 
@@ -40,14 +44,14 @@ i_Relay_Actuation_Requests* Relay_Actuator::Get_Port__Relay_Actuation( void )
 /**************************************************************************************************/
 /* Provided operations */
 /**************************************************************************************************/
-void Relay_Actuator::Relay_Actuation_Class::Close_Circuit( void )
+void Relay_Actuator::Close_Circuit( void )
 {
-    this->Parent->Discrete_Pin->Set_Level(IO_LEVEL_HIGH);
+    this->Discrete_Pin->Set_Level(IO_LEVEL_HIGH);
 }
 /*------------------------------------------------------------------------------------------------*/
-void Relay_Actuator::Relay_Actuation_Class::Open_Circuit( void )
+void Relay_Actuator::Open_Circuit( void )
 {
-    this->Parent->Discrete_Pin->Set_Level(IO_LEVEL_LOW);
+    this->Discrete_Pin->Set_Level(IO_LEVEL_LOW);
 }
 /**************************************************************************************************/
 
