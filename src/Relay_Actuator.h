@@ -2,58 +2,32 @@
 #define RELAY_ACTUATOR_H
 
 
-/* Attributes */
-
-
+/*============================================================================*/
+/* Inclusions */
+/*============================================================================*/
 /* Realized interfaces */
-#include "i_Relay_Actuation_Requests.h"
+#include "Relay_Actuation_Requests.h"
 
 
-/* Needed interfaces */
-#include "i_Discrete_Output.h"
-
-/* Events */
+/* Required interfaces */
+#include "Discrete_Output.h"
 
 
-class Relay_Actuator : i_Relay_Actuation_Requests {
-public :
-    /*--------------------------------------------------------------------------------------------*/
-    /* Constructor */
-	Relay_Actuator( void );
-    void Connect_Ports( i_Discrete_Output* an_discrete_pin );
+/*============================================================================*/
+/* Component_Type */
+/*============================================================================*/
+typedef struct {
 
-    /*--------------------------------------------------------------------------------------------*/
-    /* Component_Type_Operations */
+    /* Required interfaces */
+    const Discrete_Output* Discrete_Pin;
 
-    /*--------------------------------------------------------------------------------------------*/
-    /* Event reception points accessors */
+} Relay_Actuator;
 
-    /*--------------------------------------------------------------------------------------------*/
-    /* Provided port accessors */
-    i_Relay_Actuation_Requests* Get_Port__Relay_Actuation( void );
-	
-	void Close_Circuit( void ) override ;
-    void Open_Circuit( void ) override ;
 
-private :
-    /*--------------------------------------------------------------------------------------------*/
-    /* Private attributes */
-
-    /*--------------------------------------------------------------------------------------------*/
-    /* Private methods */
-
-    /*--------------------------------------------------------------------------------------------*/
-    /* Requirer_Ports */
-    i_Discrete_Output* Discrete_Pin;
-
-    /*--------------------------------------------------------------------------------------------*/
-    /* Provider ports */
-
-    /*--------------------------------------------------------------------------------------------*/
-    /* Sent events */
-
-    /*--------------------------------------------------------------------------------------------*/
-    /* Received events */
-};
+/*============================================================================*/
+/* Realized interfaces */
+/*============================================================================*/
+void Relay_Actuator__Relay_Actuation__Close_Circuit( const Relay_Actuator* Me );
+void Relay_Actuator__Relay_Actuation__Open_Circuit( const Relay_Actuator* Me );
 
 #endif

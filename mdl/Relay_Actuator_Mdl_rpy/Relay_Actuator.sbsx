@@ -17,7 +17,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
 							<_hname type="a">PSWA_Package</_hname>
 							<_hid type="a">GUID afb0e42d-a399-4819-bb39-46f0fd0f0fbf</_hid>
@@ -25,10 +25,10 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.20.2020::9:37:54</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.20.2020::9:37:54</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.24.2020::13:49:12</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.24.2020::13:49:12</_modifiedTime>
 			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">1.20.2020::9:37:54</weakCGTime>
+			<weakCGTime type="a">4.24.2020::13:49:12</weakCGTime>
 			<strongCGTime type="a">10.26.2019::14:14:53</strongCGTime>
 			<_defaultComposite type="s">GUID 71072eb1-51c5-4242-a7ad-d08ccccb650a</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -226,7 +226,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Diagrams</_hsubsystem>
 							<_hname type="a">PSWA_Diagram</_hname>
 							<_hid type="a">GUID c7b74034-874b-4fb8-b488-dec424934ba4</_hid>
@@ -235,8 +235,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.20.2020::9:37:54</_modifiedTime>
-			<_lastModifiedTime type="a">1.20.2020::9:37:54</_lastModifiedTime>
+			<_modifiedTime type="a">4.24.2020::13:49:12</_modifiedTime>
+			<_lastModifiedTime type="a">4.24.2020::13:49:12</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -419,8 +419,8 @@
 					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
-			<m_drawBehavior type="a">4140</m_drawBehavior>
-			<m_transform type="a">0.202077 0 0 0.193405 399.596 257.37 </m_transform>
+			<m_drawBehavior type="a">4200</m_drawBehavior>
+			<m_transform type="a">0.236071 0 0 0.193405 399.528 257.37 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -441,8 +441,9 @@
 			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=50%25,50%25&gt;
+			<frameset type="a">&lt;frameset rows=33%25,33%25,33%25&gt;
 &lt;frame name=DescriptionCompartment&gt;
+&lt;frame name=AttributeListCompartment&gt;
 &lt;frame name=OperationListCompartment&gt;</frameset>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
@@ -457,6 +458,7 @@
 			<AggregatesList type="e">
 				<value>GUID 6a142c26-da01-4e91-83c9-f5d1a8b41f79</value>
 				<value>GUID 66bd59dc-5a53-49c2-99a0-77954925845f</value>
+				<value>GUID edc838ec-92ef-443c-83f4-91098daa5945</value>
 			</AggregatesList>
 		</CGIClass>
 		<CGICompartment type="e">
@@ -469,6 +471,13 @@
 		<CGICompartment type="e">
 			<_id type="a">GUID 66bd59dc-5a53-49c2-99a0-77954925845f</_id>
 			<m_name type="a">Description</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+		</CGICompartment>
+		<CGICompartment type="e">
+			<_id type="a">GUID edc838ec-92ef-443c-83f4-91098daa5945</_id>
+			<m_name type="a">Attribute</m_name>
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
@@ -502,7 +511,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
-			<m_transform type="a">-0 -5.17051 4.9486 -0 -191.752 1050.47 </m_transform>
+			<m_transform type="a">-0 -5.17051 4.236 -0 -163.852 1050.47 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -530,7 +539,7 @@
 			<m_SubType type="a">0</m_SubType>
 			<m_providedInterfaceLabel type="p">
 				<CGIText type="e">
-					<m_str type="a">i_Relay_Actuation_Requests</m_str>
+					<m_str type="a">Relay_Actuation_Requests</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -596,7 +605,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
-			<m_transform type="a">5.09296e-006 5.17051 -4.9486 5.32134e-006 1253.24 724.724 </m_transform>
+			<m_transform type="a">4.35957e-006 5.17051 -4.236 5.32134e-006 1225.56 724.724 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -642,7 +651,7 @@
 			</m_providedInterfaceLabel>
 			<m_requiredInterfaceLabel type="p">
 				<CGIText type="e">
-					<m_str type="a">i_Discrete_Output</m_str>
+					<m_str type="a">Discrete_Output</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -734,7 +743,7 @@
 			<m_pParent type="s">GUID f293a0ea-6d8f-4b03-a1f4-9c43d1952f85</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">i_Relay_Actuation_Requests</m_str>
+					<m_str type="a">Relay_Actuation_Requests</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -750,7 +759,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4140</m_drawBehavior>
-			<m_transform type="a">0.176582 0 0 0.134581 64.6468 309.723 </m_transform>
+			<m_transform type="a">0.223796 0 0 0.127451 14.5524 312.069 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -852,14 +861,14 @@
 					<_hm2Class type="a">IClass</_hm2Class>
 					<_hfilename type="a">.\..\..\..\Hardware_IO_Interfaces\mdl\Hardware_IO_Interfaces_Mdl_rpy\Hardware_IO_Interfaces.sbsx</_hfilename>
 					<_hsubsystem type="a">Hardware_IO_Interfaces</_hsubsystem>
-					<_hname type="a">i_Discrete_Output</_hname>
+					<_hname type="a">Discrete_Output</_hname>
 					<_hid type="a">GUID fdec2ecc-7764-4808-a1c9-090395686704</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID f293a0ea-6d8f-4b03-a1f4-9c43d1952f85</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">i_Discrete_Output</m_str>
+					<m_str type="a">Discrete_Output</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -971,14 +980,14 @@
 					<_hm2Class type="a">IType</_hm2Class>
 					<_hfilename type="a">.\..\..\..\Hardware_IO_Interfaces\mdl\Hardware_IO_Interfaces_Mdl_rpy\Hardware_IO_Interfaces.sbsx</_hfilename>
 					<_hsubsystem type="a">Hardware_IO_Interfaces</_hsubsystem>
-					<_hname type="a">E_IO_LEVEL</_hname>
+					<_hname type="a">E_IO_Level</_hname>
 					<_hid type="a">GUID 567a8426-dc8b-42fd-a945-49c36bf1b588</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID f293a0ea-6d8f-4b03-a1f4-9c43d1952f85</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">E_IO_LEVEL</m_str>
+					<m_str type="a">E_IO_Level</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -994,7 +1003,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.200338 0 0 0.107642 773 450.323 </m_transform>
+			<m_transform type="a">0.200338 0 0 0.117502 773 450.353 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1064,7 +1073,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type</_hsubsystem>
 							<_hname type="a">Component_Type</_hname>
 							<_hid type="a">GUID 9f000df0-3104-4bba-93b4-e2b6a64d3833</_hid>
@@ -1072,7 +1081,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.16.2020::11:52:27</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.24.2020::13:47:17</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -1083,9 +1092,9 @@
 				<_text type="a">Relay_Actuator Component_Type allows to pilot a relay hardware device.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">1.16.2020::11:52:27</_modifiedTime>
+			<_modifiedTime type="a">4.24.2020::13:47:17</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">1.16.2020::11:52:27</weakCGTime>
+			<weakCGTime type="a">4.24.2020::13:47:17</weakCGTime>
 			<strongCGTime type="a">11.7.2019::15:9:42</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -1107,7 +1116,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Ports</_hsubsystem>
 							<_hname type="a">Provider_Port</_hname>
 							<_hid type="a">GUID 220d63ab-1b03-4cbb-83e1-4160a66b0389</_hid>
@@ -1149,9 +1158,9 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">10.26.2019::14:23:42</_modifiedTimeWeak>
-				<_modifiedTime type="a">10.26.2019::14:23:42</_modifiedTime>
-				<weakCGTime type="a">10.26.2019::14:23:42</weakCGTime>
+				<_modifiedTimeWeak type="a">4.24.2020::13:47:17</_modifiedTimeWeak>
+				<_modifiedTime type="a">4.24.2020::13:47:17</_modifiedTime>
+				<weakCGTime type="a">4.24.2020::13:47:17</weakCGTime>
 				<strongCGTime type="a">10.26.2019::14:21:55</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
@@ -1187,7 +1196,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Ports</_hsubsystem>
 							<_hname type="a">Requirer_Port</_hname>
 							<_hid type="a">GUID ab30ddc9-d03d-4ece-bea7-881e4753d8f7</_hid>
@@ -1266,7 +1275,7 @@
 						<_hm2Class type="a">IClass</_hm2Class>
 						<_hfilename type="a">.\..\..\..\Hardware_IO_Interfaces\mdl\Hardware_IO_Interfaces_Mdl_rpy\Hardware_IO_Interfaces.sbsx</_hfilename>
 						<_hsubsystem type="a">Hardware_IO_Interfaces</_hsubsystem>
-						<_hname type="a">i_Discrete_Output</_hname>
+						<_hname type="a">Discrete_Output</_hname>
 						<_hid type="a">GUID fdec2ecc-7764-4808-a1c9-090395686704</_hid>
 					</INObjectHandle>
 				</_dependsOn>
@@ -1282,14 +1291,14 @@
 		<IClass type="e">
 			<_id type="a">GUID de281263-d2e8-4e93-9095-b409babd47cd</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">i_Relay_Actuation_Requests</_name>
+			<_name type="a">Relay_Actuation_Requests</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Interfaces</_hsubsystem>
 							<_hname type="a">Client_Server_Interface</_hname>
 							<_hid type="a">GUID 74d15759-da33-4217-9115-4cad66849eff</_hid>
@@ -1297,7 +1306,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.16.2020::15:40:9</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.24.2020::13:48:10</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -1305,13 +1314,13 @@
 				</IHandle>
 			</_theMainDiagram>
 			<_description type="p"><IDescription type="e">
-				<_text type="a">i_Relay_Actuation_Requests defines operations allowing to manage a relay.</_text>
+				<_text type="a">Gathers operations allowing to manage a relay.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">1.16.2020::15:40:9</_modifiedTime>
+			<_modifiedTime type="a">4.24.2020::13:48:10</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">1.16.2020::15:40:9</weakCGTime>
-			<strongCGTime type="a">10.26.2019::14:16:9</strongCGTime>
+			<weakCGTime type="a">4.24.2020::13:48:10</weakCGTime>
+			<strongCGTime type="a">4.24.2020::13:47:17</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1365,7 +1374,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Interfaces</_hsubsystem>
 							<_hname type="a">Synchronous_Operation</_hname>
 							<_hid type="a">GUID 739c3d19-e20b-4e24-bab1-ec51826db9b5</_hid>
@@ -1441,7 +1450,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Interfaces</_hsubsystem>
 							<_hname type="a">Synchronous_Operation</_hname>
 							<_hid type="a">GUID 739c3d19-e20b-4e24-bab1-ec51826db9b5</_hid>
